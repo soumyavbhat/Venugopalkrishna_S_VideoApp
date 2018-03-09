@@ -2,7 +2,7 @@
 # GroupA
 
 A stand-alone video app that is built using node.js, express and handlebars
-###Functionallity 
+##Functionallity 
 10 videos inserted for the index, kids(favourite and adverture button) and adults pages.
 For all visible content (thumbnails) , if video isn't availble, an image is used.
 videos folder to be added in the public folder.
