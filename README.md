@@ -2,6 +2,10 @@
 # GroupA
 
 A stand-alone video app that is built using node.js, express and handlebars
+###Functionallity 
+10 videos inserted for the index, kids(favourite and adverture button) and adults pages.
+For all visible content (thumbnails) , if video isn't availble, an image is used.
+videos folder to be added in the public folder.
 
 ## Getting Started
 The master branch can be cloned. Along with this, get to the root folder of this project and NPM install, as this project uses Node.js and other dependencies like grunt and express.
