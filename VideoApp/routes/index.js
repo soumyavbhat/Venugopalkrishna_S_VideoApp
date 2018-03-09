@@ -171,7 +171,10 @@ res.render('api',
               });
                 });
                 router.get('/kidsadv/:id', (req, res)=>{
-                  connect.query(`SELECT * FROM tbl_kidimgadv `, (err, result)=> {
+                  var id = req.params.id;
+                    console.log(req.params.id);
+                    console.log("hit an api");
+                  connect.query('SELECT * FROM tbl_kidimgadv WHERE img_id='+id, (err, result)=> {
                     if (err)
                     {
                       throw err; console.log(err);
