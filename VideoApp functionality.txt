@@ -1,0 +1,6 @@
+10 videos assigned for index(general), adults and kids (section favourite and adventure)
+
+All visible sections have linked images (if not for videos)
+
+Videos aren't autoplayed.
+

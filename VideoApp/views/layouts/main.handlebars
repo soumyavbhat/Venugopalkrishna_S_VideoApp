@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+{{#if index}}
+<link rel="stylesheet" href="/css/style.css">
+
+{{/if}}
+
+{{#if adults}}
+<link rel="stylesheet" href="/css/styleA.css">
+{{/if}}
+
+{{#if kids}}
+<link rel="stylesheet" href="/css/styleK.css">
+{{/if}}
+  <title>{{title}}</title>
+</head>
+<body>
+  <div class="container">
+    {{{body}}}
+
+  </div>
+
+<!-- <script type="text/javascript" src="javascripts/main.js"></script> -->
+<script type="text/javascript" src="/javascripts/video.js"></script>
+
+
+</body>
+</html>
